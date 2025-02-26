@@ -1,0 +1,14 @@
+.pokelist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem
+}
+
+.pokelist article:nth-last-child(5) {
+    background-color: orange;
+}
+
+article img {
+    width:100%;
+    height: auto;
+}
